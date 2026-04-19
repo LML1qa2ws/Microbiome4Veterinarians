@@ -74,7 +74,7 @@ Despite the accumulating evidence, several challenges hinder the clinical transl
 
 The identification of microbial signatures associated with specific diseases holds considerable promise for veterinary diagnostics. In companion animals, several lines of evidence support the diagnostic potential of gut microbiome profiling:
 
-- **Canine chronic enteropathy:** Studies have identified distinct microbial signatures—including decreased *Faecalibacterium*, *Blautia*, and *Fusobacterium*, and increased *Escherichia-Shigella*—that differentiate dogs with chronic enteropathy from healthy controls[14,26]. The Dysbiosis Index (DI), a quantitative PCR-based panel measuring the abundance of seven key bacterial groups, has been validated as a clinically useful tool for assessing gut dysbiosis in dogs and is commercially available[27].
+- **Canine chronic enteropathy:** Studies have identified distinct microbial signatures—including decreased *Faecalibacterium*, *Blautia*, and *Fusobacterium*, and increased *Escherichia-Shigella*—that differentiate dogs with chronic enteropathy from healthy controls[14,26]. The Dysbiosis Index (DI), a quantitative PCR-based panel measuring the abundance of seven key bacterial groups, has been validated as a clinically useful tool for assessing gut dysbiosis in dogs and is commercially available[14].
 
 - **Feline chronic enteropathy and alimentary lymphoma:** Microbiome profiling has shown potential for distinguishing between inflammatory bowel disease and intestinal lymphoma in cats, conditions that are notoriously difficult to differentiate clinically[28].
 
@@ -98,7 +98,7 @@ The commercial availability of direct-to-consumer (DTC) microbiome testing for p
 - Risk of over-interpretation and unnecessary interventions
 - Absence of regulatory oversight
 
-Clinicians should critically evaluate the clinical utility of these tests and counsel pet owners accordingly[31]. The development of veterinary-specific standards for microbiome testing, analogous to the recently published international consensus statement on microbiome testing in human clinical practice[32], is urgently needed.
+Clinicians should critically evaluate the clinical utility of these tests and counsel pet owners accordingly[31,32]. The development of veterinary-specific standards for microbiome testing, analogous to the recently published international consensus statement on microbiome testing in human clinical practice[31], is urgently needed.
 
 ### 3.4 Emerging Technologies
 
@@ -174,7 +174,7 @@ The One Medicine concept extends One Health by emphasizing that clinical approac
 
 - **Comparative microbiomics:** Systematic comparison of microbiomes across species is revealing conserved and species-specific microbial–host interaction pathways, supporting the identification of universal therapeutic targets[7].
 
-- **Shared diagnostic tools:** Diagnostic frameworks developed for human microbiome testing can be adapted for veterinary use, and vice versa. For example, the Dysbiosis Index validated in dogs[27] has parallels with human gut microbiome diagnostic panels.
+- **Shared diagnostic tools:** Diagnostic frameworks developed for human microbiome testing can be adapted for veterinary use, and vice versa. For example, the Dysbiosis Index validated in dogs[14] has parallels with human gut microbiome diagnostic panels.
 
 - **Cross-disciplinary clinical trials:** Collaborative clinical trials involving both human and veterinary patients—studying, for example, the impact of household-level antimicrobial use on shared microbiomes—represent a frontier for One Medicine research.
 
@@ -324,7 +324,7 @@ All authors declared that there are no conflicts of interest.
 
 9. Mackenzie JS, Jeggo M. The One Health approach—why is it so important? *Trop Med Infect Dis* 2019;4:88. [DOI: 10.3390/tropicalmed4020088]
 
-10. Trinh P, Zaneveld JR, Safranek S, Rabinowitz PM. One Health relationships between human, animal, and environmental microbiomes: a mini-review. *Front Public Health* 2018;6:235. [DOI: 10.3389/fpubh.2018.00235]
+10. Banerjee S, van der Heijden MGA. One Health, One Microbiome. *Microbiome* 2025;13:55. [DOI: 10.1186/s40168-025-02231-6]
 
 11. Pilla R, Suchodolski JS. The comprehensive profile of the companion animal gut microbiome. *ISME J* 2024;18:wrae201. [DOI: 10.1093/ismej/wrae201]
 
@@ -358,7 +358,7 @@ All authors declared that there are no conflicts of interest.
 
 26. Minamoto Y, Otoni CC, Steelman SM, Büyükleblebici O, Steiner JM, Jergens AE, et al. Alteration of the fecal microbiota and serum metabolite profiles in dogs with idiopathic inflammatory bowel disease. *Gut Microbes* 2015;6:33–47. [DOI: 10.1080/19490976.2014.997612]
 
-27. AlShawaqfeh MK, Wajid B, Minamoto Y, Markel M, Lidbury JA, Steiner JM, et al. A dysbiosis index to assess microbial changes in fecal samples of dogs with chronic inflammatory enteropathy. *FEMS Microbiol Ecol* 2017;93:fix136. [DOI: 10.1093/femsec/fix136]
+27. Guard BC, Barr JW, Redd L, Blake AB, Lidbury JA, Steiner JM, et al. Characterization of microbial dysbiosis and metabolomic changes in dogs with acute diarrhea. *PLoS One* 2015;10:e0127259. [DOI: 10.1371/journal.pone.0127259]
 
 28. Marsilio S, Pilla R, Sarawichitr B, Chow B, Hill SL, Ackermann MR, et al. Characterization of the fecal microbiome in cats with inflammatory bowel disease or alimentary small cell lymphoma. *Sci Rep* 2019;9:19208. [DOI: 10.1038/s41598-019-55691-w]
 
@@ -368,7 +368,7 @@ All authors declared that there are no conflicts of interest.
 
 31. Porcari S, Mullish BH, Asnicar F, Ng SC, Zhao L, Hansen R, et al. International consensus statement on microbiome testing in clinical practice. *Lancet Gastroenterol Hepatol* 2025;10:154–67. [DOI: 10.1016/S2468-1253(24)00311-X]
 
-32. Porcari S, Mullish BH, Asnicar F, Ng SC, Zhao L, Hansen R, et al. International consensus statement on microbiome testing in clinical practice. *Lancet Gastroenterol Hepatol* 2025;10:154–67. [DOI: 10.1016/S2468-1253(24)00311-X]
+32. Suchodolski JS. Analysis of the gut microbiome in dogs and cats. *Vet Clin Pathol* 2021;50 Suppl 1:6–17. [DOI: 10.1111/vcp.13031]
 
 33. Valdés-Mas R, Leshem A, Zheng D, Cohen Y, Kern L, Zmora N, et al. Metagenome-informed metaproteomics of the human gut microbiome, host, and dietary exposome uncovers signatures of health and inflammatory bowel disease. *Cell* 2025;188:1062–83.e36. [DOI: 10.1016/j.cell.2024.12.016]
 
