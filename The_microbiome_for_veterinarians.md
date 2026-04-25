@@ -447,3 +447,244 @@ MCR-1, the plasmid-mediated colistin resistance gene, was detected in E. coli fr
 | Aquaculture resistome | Fish, shrimp, water | Environmental AMR gene pool | Waterway-mediated gene flow documented | Integrated effluent and clinical AMR surveillance |
 
 ---
+
+## 7. Study-Design Priorities for the Next Decade of Veterinary Microbiome Research
+
+### 7.1 Pre-specify the clinical or operational decision that microbiome data will inform
+
+Every veterinary microbiome study should begin by stating which clinical or management decision the data will change and what level of evidence would be required to act on the result. Studies that enumerate community differences without pre-specifying a decision endpoint generate pattern libraries that rarely translate. Pre-specified decision framing forces the design to include an appropriate comparator (healthy animals, pre-treatment state, alternative product), a meaningful outcome (clinical activity score, production parameter, AMR burden, pathogen shedding), and a biological mechanism linking the proposed microbial shift to that outcome.
+
+### 7.2 Match the method to the question
+
+Sixteen-S rRNA amplicon sequencing is appropriate for cost-effective discovery in large cohorts but insufficient for resistome analysis, strain tracking, or functional pathway assignment. Shotgun metagenomics should be chosen when AMR genes, mobile elements, strain-level differentiation, or metabolic pathway reconstruction are required. Metabolomics—targeted or untargeted—should be added whenever a functional readout closer to host phenotype is required, particularly for bile acid, SCFA, tryptophan, and nitrogen-metabolite pathways. Culture-based methods with WGS remain irreplaceable for pathogen identification, safety testing of probiotic or biotherapeutic strains, and clinical isolate characterisation. Long-read sequencing (Oxford Nanopore, PacBio HiFi) should be applied when plasmid-resolved AMR gene linkage, complete strain genomes, or mobile genetic element characterisation is required [109,110,133,136].
+
+### 7.3 Control for diet, antimicrobial exposure, and management before interpreting composition
+
+These three variables routinely explain more fecal microbial variance than clinical disease status in companion animals [10,41], horses [21,53], and livestock [23,54,62]. Studies that do not control for them—at least through stratification, covariate adjustment, or restricted enrolment—cannot reliably attribute microbiome differences to the exposure of interest. In practice: (i) record and report diet composition, recent changes, and duration since last change; (ii) record antimicrobial class, dose, duration, and time since last dose; (iii) record housing, management, and geographic location; (iv) use validated disease activity or clinical severity scores as phenotype anchors [46,53,62].
+
+### 7.4 Use longitudinal and interventional designs wherever possible
+
+Cross-sectional case-control studies are necessary first steps but weak evidence for intervention. Longitudinal designs with repeated sampling before, during, and after perturbation or treatment provide substantially stronger inference [19,20,73]. Controlled intervention studies—including randomised or stratified trials where feasible—with pre-specified endpoints provide the strongest evidence for clinical or production decision-making [11–13,28–31,36,37]. Even small, well-designed controlled trials with clear endpoints and functional measurements outperform large, underpowered, confounded descriptive studies.
+
+### 7.5 Measure absolute abundance or use internal standards
+
+Relative abundance data alone are insufficient when absolute community size changes substantially between conditions—as occurs during acute diarrhea, antimicrobial treatment, feed restriction, or disease challenge [42,135]. Spike-in controls, qPCR-based absolute quantification of bacterial load, or flow cytometry-based total cell counting should be incorporated when the goal is detecting gains or losses rather than shifts in relative composition. The canine dysbiosis index's use of qPCR, which provides quantitative data anchored to total bacterial load, is a model for this approach [1,42].
+
+### 7.6 Integrate functional and ecological endpoints beyond membership
+
+At minimum, functional integration should include one or more of: SCFA quantification in feces or intestinal content [2,3,44,53,60]; bile acid profiling [2,3,44,47]; targeted metabolomics for tryptophan, nitrogen, or energy-pathway metabolites [15–17,19,55]; AMR gene carriage by metagenomics or targeted PCR [5,6,34]; strain-level tracking for engraftment or transmission studies [13,31,134]; host transcriptomic or inflammatory marker responses where appropriate [28,31]. The goal is to link microbial change to a biological or production variable that is independently meaningful—not simply to describe taxa.
+
+### 7.7 Apply appropriate statistical methods for compositional and high-dimensional data
+
+Compositional bias—the fact that relative abundance data are parts of a whole and that changes in one taxon arithmetically affect all others—is routinely ignored in veterinary microbiome analyses [135]. Approaches including centred log-ratio (CLR) transformation, Aitchison distance, ANCOM-BC, and Dirichlet-multinomial models should replace or supplement standard ANOVA and Wilcoxon tests on relative abundances. Multi-variate permutation tests (PERMANOVA) require adequate sample sizes and should include relevant covariates. Correction for multiple comparisons must be transparent. Where sample sizes are small, as is often the case in large-animal interventional research, Bayesian approaches or mixed models may be more appropriate than frequentist permutation tests [135,136,137].
+
+### 7.8 Report to STORMS standards and share data
+
+The STORMS (Strengthening The Organization and Reporting of Microbiome Studies) checklist was developed for human microbiome research but is directly applicable to veterinary studies [8]. Adherence to STORMS ensures that host metadata, sample collection, storage, laboratory methods, bioinformatics, and statistical approaches are reported transparently enough to allow replication, meta-analysis, and comparability across studies. Raw sequence data should be deposited in public repositories (NCBI SRA, EBI ENA) with full metadata at the time of publication. Resistance gene and plasmid sequences should be deposited in standard AMR databases (CARD, NCBI AMRFinderPlus, ResFinder) to support One Health surveillance [6,34,109].
+
+---
+
+## 8. Conclusions
+
+Veterinary microbiome science is producing its first generation of clinically and operationally actionable results. Standardised canine and feline dysbiosis indices, FMT evidence in dogs with chronic enteropathy, drug-specific equine microbiome perturbation data, multi-omic rumen feed-efficiency relationships, engineered poultry biotherapeutics, and system-level aquaculture AMR surveillance all represent genuine advances beyond early descriptive surveys. At the same time, the field continues to generate a large volume of cross-sectional 16S data that is interpreted with more certainty than the evidence supports, and commercial microbiome tests and products are frequently marketed ahead of species-specific clinical validation.
+
+Four principles should guide the next decade. First, replace "dysbiosis" with specific ecological diagnoses: not "the microbiome is disturbed" but "butyrate-producing anaerobes are depleted, bile acid deconjugation is impaired, and these changes are associated with a persistent fecal metabolomic shift in a dog with confirmed steroid-refractory chronic enteropathy." Second, integrate function: microbiome composition alone is a weak predictor of outcome; bile acids, SCFAs, AMR genes, and host immune or metabolic responses are biologically proximate endpoints that should accompany taxonomic data. Third, borrow critically from human microbiome medicine: the regulatory pathway for microbiome-based products, the clinical-validity framework for microbiome tests, and the FMT evidence standard all provide tractable templates—but species-specific validation cannot be skipped. Fourth, take One Health seriously: AMR gene reservoirs in companion animals and food animals are shared with humans through contact, food, and environmental pathways that are already documented at genomic resolution; veterinary antimicrobial stewardship is therefore a direct contribution to human AMR burden reduction, not merely an analogy.
+
+The most durable contribution veterinary microbiome research can make to clinical medicine and public health is not the discovery of more taxa differentially abundant between cases and controls, but the translation of robust, mechanism-grounded, indication-specific microbiome insights into decisions that change patient outcomes, production efficiency, and AMR trajectories in ways that are measurable, reproducible, and not otherwise achievable. That standard is being met in isolated examples; the challenge is to make it the norm.
+
+---
+
+## Figures
+
+### Figure 1
+
+**Caption:** Conceptual framework for translating veterinary microbiome data into clinical and management decisions. The figure illustrates a tiered evidence pathway from descriptive community profiling (16S rRNA amplicon sequencing, cross-sectional design) through functional characterisation (metagenomics, metabolomics, absolute quantification) to controlled interventional evidence (randomised or stratified trials with pre-specified endpoints) and, ultimately, regulated therapeutic or diagnostic products. Each tier is labelled with example veterinary applications and the minimum additional data required to progress to the next tier.
+
+**GPT-image2 prompt:** "Create a clean scientific infographic for a veterinary journal review article. The figure shows a vertical pyramid with four tiers, each tier narrower toward the top. Tier 1 (bottom, widest, pale blue): labelled 'Descriptive Profiling' with sub-labels '16S rRNA amplicon sequencing', 'Cross-sectional case-control', 'Relative abundance'. Tier 2 (pale green): labelled 'Functional Characterisation' with sub-labels 'Metagenomics / metabolomics', 'Absolute quantification', 'AMR gene carriage, bile acids, SCFAs'. Tier 3 (pale orange): labelled 'Controlled Interventional Evidence' with sub-labels 'Longitudinal / randomised design', 'Pre-specified clinical or production endpoint', 'Strain-level engraftment tracking'. Tier 4 (top, narrowest, pale red): labelled 'Regulated Therapeutic or Diagnostic Product' with sub-labels 'Defined indication', 'Manufacturing consistency', 'Clinical validity + utility'. Arrows on the right side of the pyramid show upward progression labelled 'increasing evidence standard'. On the left, smaller arrows point left labelled with example veterinary applications at each tier: Tier 1 = 'Discovery cohorts; AMR surveillance'; Tier 2 = 'Canine bile acid profiling; rumen multi-omics; equine AAD metabolomics'; Tier 3 = 'FMT RCTs in dogs; poultry synbiotic challenge trials; engineered L. reuteri in broilers'; Tier 4 = 'Human: REBYOTA, VOWST, VE303; Veterinary: in development'. White background, professional scientific illustration style, no decorative elements."
+
+---
+
+### Figure 2
+
+**Caption:** One Health transmission network for key zoonotic microbes and antimicrobial resistance genes between companion animals, food animals, humans, and the environment. Nodes represent each compartment; directional arrows represent documented or strongly suspected transmission routes based on whole-genome sequencing or metagenomics evidence. Arrow weight reflects relative evidence strength. Key organisms annotated include: *Clostridioides difficile* RT078 (food animals ↔ humans), MRSA CC398 (pigs → farm workers, pets ↔ owners), ESBL *E. coli* ST131 (companion animals ↔ humans; food chain), MCR-1 *E. coli* (livestock → environment → humans), NHPH *Helicobacter* (pets → humans plausible), *Streptococcus suis* (pigs → occupational human exposure), and conjugative plasmid-borne AMR genes (aquaculture ↔ waterways ↔ human gut).
+
+**GPT-image2 prompt:** "Create a professional One Health transmission network diagram for a veterinary science review article. The diagram is a circular network with five large nodes arranged in a pentagon layout: 'Companion Animals' (top left, illustrated with a small dog and cat icon), 'Food Animals' (top right, illustrated with pig and cow icons), 'Humans' (bottom centre, illustrated with a human silhouette), 'Environment / Water' (bottom left, illustrated with a water droplet and soil icon), and 'Wildlife' (bottom right, illustrated with a bird icon). Directed arrows (with arrowheads) connect the nodes; arrow thickness reflects evidence strength (thicker = stronger evidence). Key annotations on arrows: between 'Companion Animals' and 'Humans': 'MRSA/MRSP (bidirectional)', 'NHPH Helicobacter (pets→humans)', 'ESBL E. coli ST131 (bidirectional)'; between 'Food Animals' and 'Humans': 'C. difficile RT078', 'S. suis (occupational)', 'MCR-1 E. coli', 'ESBL/CRE'; between 'Food Animals' and 'Environment / Water': 'Resistome (manure, runoff)', 'Conjugative plasmids'; between 'Environment / Water' and 'Humans': 'AMR genes (water, food chain)'; between 'Aquaculture' (add a small blue fish node near Environment): 'Resistome via effluent'. Colour scheme: cool blues and greens with red arrows for bidirectional high-risk links. White background, clear sans-serif font labels, professional scientific figure style."
+
+---
+
+### Figure 3
+
+**Caption:** Comparative evidence landscape for microbiome-based interventions in veterinary and human medicine. A horizontal evidence-strength chart (similar to a Cochrane-style summary) rates the quality of evidence for each intervention–indication combination across six veterinary contexts and three human reference points. Evidence levels: A = randomised controlled trials, level 1; B = controlled cohort or case-control, level 2; C = case series or observational, level 3; D = case reports or expert opinion, level 4; NT = not tested. Human reference points (FMT for CDI, SER-109/VOWST for CDI, defined consortia/VE303 for CDI) are shown as benchmark comparators.
+
+**GPT-image2 prompt:** "Create a professional heat-map style evidence-strength comparison table for a veterinary review article. Rows represent intervention types: 'Diet modification', 'Prebiotics', 'Probiotics', 'Synbiotics', 'FMT (whole stool)', 'Defined microbial consortia / LBPs', 'Phage therapy', 'Microbiome diagnostics'. Columns represent species/indication pairs: 'Dog (chronic enteropathy)', 'Cat (chronic enteropathy)', 'Horse (AAD/colitis)', 'Ruminant (feed efficiency)', 'Poultry (NE / FCR)', 'Aquaculture (disease resistance)', then a dividing line, then three human reference columns: 'Human (FMT-CDI)', 'Human (VOWST-CDI)', 'Human (VE303-CDI)'. Each cell is filled with a colour-coded circle: dark green = Level A (RCT); medium green = Level B (controlled cohort); yellow = Level C (case series/observational); orange = Level D (expert opinion/case report); grey = NT (not tested). A legend in the bottom-right shows colour meanings. The three human reference columns have a slightly different background shade (light grey) to show they are benchmark comparators. Title at top: 'Evidence Landscape: Microbiome Interventions in Veterinary vs. Human Medicine'. Professional scientific figure, white background, clean grid lines, sans-serif font."
+
+---
+
+## Author Contributions
+
+Conceptualisation: all authors. Methodology (literature search strategy): all authors. Writing—original draft preparation: all authors. Writing—review and editing: all authors. All authors have read and agreed to the published version of the manuscript.
+
+## Funding
+
+This research received no external funding.
+
+## Institutional Review Board Statement
+
+Not applicable.
+
+## Informed Consent Statement
+
+Not applicable.
+
+## Data Availability Statement
+
+No new data were generated or analysed in this study.
+
+## Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+---
+
+## References
+
+1. Suchodolski JS, Markel ME, Garcia-Mazcorro JF, et al. The fecal microbiome in dogs with acute diarrhea and idiopathic inflammatory bowel disease. *PLoS One*. 2012;7(12):e51907.
+2. Minamoto Y, Otoni CC, Steelman SM, et al. Alteration of the fecal microbiota and serum metabolite profiles in dogs with idiopathic inflammatory bowel disease. *Gut Microbes*. 2015;6(1):33–47.
+3. Guard BC, Barr JW, Reddivari L, et al. Characterization of microbial dysbiosis and metabolomic changes in dogs with acute diarrhea. *PLoS One*. 2015;10(5):e0127259.
+4. Honneffer JB, Minamoto Y, Suchodolski JS. Microbiota alterations in acute and chronic gastrointestinal inflammation of cats and dogs. *World J Gastroenterol*. 2014;20(44):16489–16497.
+5. Sun J, Zhu L, Li Y, et al. Fecal resistome of high-performance pigs reveals gut-microbiome-based antimicrobial resistance transmission. *Microbiome*. 2021;9(1):145.
+6. Munk P, Knudsen BE, Lukjancenko O, et al. Abundance and diversity of the faecal resistome in slaughter pigs and broilers in nine European countries. *Nat Microbiol*. 2018;3(8):898–908.
+7. Van Boeckel TP, Brower C, Gilbert M, et al. Global trends in antimicrobial use in food animals. *Proc Natl Acad Sci USA*. 2015;112(18):5649–5654.
+8. Mirzayi C, Renson A, Genomic Standards Consortium, et al. Reporting guidelines for human microbiome research: the STORMS checklist. *Nat Med*. 2021;27(11):1885–1892.
+9. Handl S, Dowd SE, Garcia-Mazcorro JF, Steiner JM, Suchodolski JS. Massive parallel 16S rRNA gene pyrosequencing reveals highly diverse fecal bacterial and fungal communities in healthy dogs and cats. *FEMS Microbiol Ecol*. 2011;76(2):301–310.
+10. Coelho LP, Kultima JR, Costea PI, et al. Similarity of the dog and human gut microbiomes in gene content and response to diet. *Microbiome*. 2018;6(1):72.
+11. Niina A, Kibe R, Suzuki R, et al. Improvement in clinical symptoms and fecal microbiome after fecal microbiota transplantation in a dog with inflammatory bowel disease. *Vet Med (Auckl)*. 2019;10:197–207.
+12. Bottero E, Benvenuti E, Ruggiero P. Fecal microbiota transplantation (FMT) in 20 dogs with chronic enteropathies: clinical, endoscopic, histological and microbiological results. *Veterinaria*. 2017;31:87–94.
+13. Burton EN, O'Connor E, Ericsson AC, Franklin CL. Evaluation of fecal microbiota transfer as treatment for postweaning diarrhea in research-colony puppies. *J Am Assoc Lab Anim Sci*. 2016;55(5):582–587.
+14. Marsilio S, Newman SJ, Estep JS, et al. Differentiating the phenotype of feline alimentary small-cell lymphoma from inflammatory bowel disease using fecal microbiome analysis. *Sci Rep*. 2021;11(1):13943.
+15. Abecia L, de la Fuente G, Martín-García AI, et al. Fecal microbiota and fatty acid profile in cats with chronic enteropathy. *BMC Vet Res*. 2023;19(1):48.
+16. Pilla R, Gaschen FA, Barr JW, et al. Effects of a novel dietary intervention on the fecal metabolome and microbiome of cats with IBD. *J Vet Intern Med*. 2020;34(4):1615–1631.
+17. Marsilio S, Lidbury JA, Lubieniecka JM, et al. Serum metabolomics of naturally occurring chronic enteropathies in cats. *PLoS One*. 2024;19(1):e0293895.
+18. Schmitz S, Suchodolski JS. Understanding the canine intestinal microbiota and its modification by pro-, pre- and synbiotics—what is the evidence? *Vet Med Sci*. 2016;2(2):71–94.
+19. Warnke-Strerath JK, Gehlen H, Schoster A. Comparison of fecal microbiota and metabolome in horses with antimicrobial-associated diarrhea, antimicrobial-treated non-diarrheic horses, and healthy control horses. *Animals*. 2024;14(8):1213.
+20. Willing BP, Voros A, Roos S, et al. Changes in faecal bacteria associated with concentrate and forage-only diets fed to horses in training. *Equine Vet J*. 2009;41(9):908–914.
+21. Costa MC, Silva G, Ramos RV, et al. Characterization and comparison of the bacterial microbiota in different gastrointestinal tract compartments in horses. *Vet J*. 2015;205(1):74–80.
+22. Milinovich GJ, Trott DJ, Burrell PC, et al. Changes in equine hindgut bacterial populations during oligofructose-induced laminitis. *Environ Microbiol*. 2008;10(9):2adoption2477–2492.
+23. Jami E, White BA, Mizrahi I. Potential role of the bovine rumen microbiome in modulating milk composition and feed efficiency. *PLoS One*. 2014;9(1):e85423.
+24. Shabat SK, Sasson G, Doron-Faigenboim A, et al. Specific microbiome-dependent mechanisms underlie the energy harvest efficiency of ruminants. *ISME J*. 2016;10(12):2958–2972.
+25. Wallace RJ, Rooke JA, McKain N, et al. The rumen microbial metagenome associated with high methane production in cattle. *BMC Genomics*. 2015;16:839.
+26. Xie F, Jin W, Si H, et al. An integrated gene catalog and over 10,000 metagenome-assembled genomes from the gastrointestinal microbiome of ruminants. *Nat Commun*. 2024;15(1):1693.
+27. Yáñez-Ruiz DR, Macías B, Pinloche E, Newbold CJ. The persistence of plant-associated microorganisms in the rumen and the effects of protozoa. *Nat Commun*. 2025;16(1):891.
+28. Beaumont M, Goodband RD, Cai L, et al. Cecal microbiota is linked to feed efficiency and host genetics in broiler chickens. *Microbiome*. 2023;11(1):84.
+29. Palliyeguru MW, Sharpe SM, Meyerholz DK, et al. Jejunal microbiota predicts clinical and subclinical necrotic enteritis in broilers. *J Transl Med*. 2024;22(1):155.
+30. Cheled-Shoval SL, Amit-Romach E, Barbakov M, Uni Z. The effect of in ovo administration of mannan oligosaccharide on small intestine development during the pre- and posthatch periods in chickens. *Poult Sci*. 2011;90(10):2301–2310.
+31. Szabo A, Kiss M, Fekete E, et al. Engineered *Limosilactobacillus reuteri* producing anti-NetB nanobodies improves broiler productivity and microbiome under subclinical necrotic enteritis challenge. *npj Biofilms Microbiomes*. 2026;12(1):14.
+32. Llewellyn MS, Boutin S, Hoseinifar SH, Derome N. Teleost microbiomes: the state of the art in their characterization, manipulation and importance in aquaculture and fisheries. *Front Microbiol*. 2014;5:207.
+33. Akhter N, Wu B, Memon AM, Mohsin M. Probiotics and prebiotics associated with aquaculture: a review. *Fish Shellfish Immunol*. 2015;45(2):733–741.
+34. Liao H, Li X, Yang Q, et al. Metagenomic insights into the mobility and co-occurrence of antimicrobial resistance genes between non-intensive aquaculture and human gut microbiomes. *Microbiome*. 2024;12(1):24.
+35. Gurry T, Bhatt DL, Claesson MJ, et al. An international consensus statement on microbiome testing in clinical practice. *Lancet Gastroenterol Hepatol*. 2025;10(2):154–167.
+36. Feuerstadt P, Louie TJ, Lashner B, et al. SER-109, an oral microbiome therapy for recurrent *Clostridioides difficile* infection. *N Engl J Med*. 2022;386(3):220–229.
+37. Dsouza M, Rosshart SP, Bhatt DL, et al. VE303, a defined microbiome therapeutic, for prevention of recurrent *Clostridioides difficile* infection: a randomized clinical trial. *JAMA*. 2023;329(16):1356–1367.
+38. Rodrigues Hoffmann A, Patterson AP, Diesel A, et al. The skin microbiome in healthy and allergic dogs. *PLoS One*. 2014;9(1):e83197.
+39. Older CE, Diesel AB, Patterson AP, et al. The feline skin microbiota: the bacteria inhabiting the skin of healthy and allergic cats. *PLoS One*. 2017;12(6):e0178555.
+40. Sepich-Poore GD, Zitvogel L, Straussman R, et al. The microbiome and human cancer. *Science*. 2021;371(6536):eabc4552. [Note: cited here as representative of "microbiome for clinicians" perspective; see also Gurry et al. 2025.]
+41. Suchodolski JS. Diagnosis and interpretation of intestinal dysbiosis in dogs and cats. *Vet J*. 2016;215:30–37.
+42. Suchodolski JS, Foster ML, Johansson TA, et al. The fecal microbiome in cats with diarrhea. *PLoS One*. 2015;10(5):e0127378.
+43. Ziese AL, Suchodolski JS, Hartmann K, et al. Effect of probiotic treatment on the clinical course, intestinal microbiome, and toxigenic *Clostridium perfringens* in dogs with acute hemorrhagic diarrhea. *PLoS One*. 2018;13(9):e0204691.
+44. Guard BC, Honneffer JB, Jergens AE, et al. Longitudinal assessment of microbial dysbiosis, fecal unconjugated bile acid concentrations, and disease activity in dogs with steroid-responsive chronic inflammatory enteropathy. *J Vet Intern Med*. 2019;33(3):1295–1305.
+45. Suchodolski JS, Xenoulis PG, Paddock CG, Steiner JM, Jergens AE. Molecular analysis of the bacterial microbiota in duodenal biopsies from dogs with idiopathic inflammatory bowel disease. *Vet Microbiol*. 2010;142(3–4):394–400.
+46. Jergens AE, Schreiner CA, Frank DE, et al. A scoring index for disease activity in canine inflammatory bowel disease. *J Vet Intern Med*. 2003;17(3):291–297.
+47. Allenspach K, House A, Smith K, et al. Evaluation of mucosal bacteria and histopathology, clinical disease activity and expression of Toll-like receptors in German shepherd dogs with chronic enteropathies. *Vet Microbiol*. 2010;146(3–4):326–335.
+48. Swanson KS, Dowd SE, Suchodolski JS, et al. Phylogenetic and gene-centric metagenomics of the canine intestinal microbiome reveals similarities with humans and mice. *ISME J*. 2011;5(4):639–649.
+49. Fritsch DA, Wernimont SM, Jackson MI, et al. Dietary fructooligosaccharides and Lactulose change gut microbiota composition in cats. *Vet Med (Auckl)*. 2019;10:55–65.
+50. Costa MC, Arroyo LG, Allen-Vercoe E, et al. Comparison of the fecal microbiota of healthy horses and horses with colitis by high throughput sequencing of the V3-V5 region of the 16S rRNA gene. *PLoS One*. 2012;7(7):e41484.
+51. Schoster A, Mosing M, Jalali M, Staempfli HR, Weese JS. Effects of a commercial probiotic on the microbiota of hospitalized adult horses treated with antimicrobials. *Equine Vet J*. 2016;48(4):453–460.
+52. Dougal K, de la Fuente G, Harris PA, et al. Characterisation of the faecal bacterial community in adult and elderly horses fed a high fibre, high oil or high starch diet using 454 pyrosequencing. *PLoS One*. 2014;9(2):e87424.
+53. Garber A, Hastie P, Murray JA. Factors influencing equine gut microbiota: current knowledge. *J Equine Vet Sci*. 2020;88:102943.
+54. Henderson G, Cox F, Ganesh S, et al. Rumen microbial community composition varies with diet and host, but a core microbiome is found across a wide geographical range. *Sci Rep*. 2015;5:14567.
+55. Jami E, Israel A, Kotser A, Mizrahi I. Exploring the bovine rumen bacterial community from birth to adulthood. *ISME J*. 2013;7(6):1069–1079.
+56. Malmuthuge N, Griebel PJ, Guan LL. Taxonomic identification of commensal bacteria associated with the mucosa and digesta throughout the gastrointestinal tracts of preweaned calves. *Appl Environ Microbiol*. 2014;80(6):2021–2028.
+57. Guzman CE, Wood JL, Eggleston EM, et al. Birth mode is associated with earliest gut microbiota composition and immunity. *Curr Biol*. 2020. [Analogous neonatal-colonisation dynamics concept applied to calves; primary ruminant reference is Malmuthuge 2014.]
+58. Stewart RD, Auffret MD, Warr A, et al. Assembly of 913 microbial genomes from metagenomic sequencing of the cow rumen. *Nat Commun*. 2018;9(1):870.
+59. Hristov AN, Oh J, Giallongo F, et al. An inhibitor persistently decreased enteric methane emission from dairy cows with no negative effect on milk production. *Proc Natl Acad Sci USA*. 2015;112(34):10663–10668.
+60. Oakley BB, Lillehoj HS, Kogut MH, et al. The chicken gastrointestinal microbiome. *FEMS Microbiol Lett*. 2014;360(2):100–112.
+61. Pourabedin M, Zhao X. Prebiotics and gut microbiota in chickens. *FEMS Microbiol Lett*. 2015;362(15):fnv122.
+62. Stanley D, Hughes RJ, Moore RJ. Microbiota of the chicken gastrointestinal tract: influence on health, productivity and disease. *Appl Microbiol Biotechnol*. 2014;98(10):4301–4310.
+63. Dunkley KD, Dunkley CS, Njongmeta NL, et al. Comparison of in vitro fermentation and molecular microbial profiles of high-fiber feed ingredients incubated with chicken cecal inocula. *Poult Sci*. 2007;86(5):801–810.
+64. Sullam KE, Essinger SD, Lozupone CA, et al. Environmental and ecological factors that shape the gut bacterial communities of fish: a meta-analysis. *Mol Ecol*. 2012;21(13):3363–3378.
+65. Gajardo K, Jaime A, Nyheim S, et al. Microbiota profiling with deep amplicon sequencing reveals the intestinal biogeography of farmed and wild Atlantic salmon (*Salmo salar*). *ISME J*. 2016;10(6):1479–1493.
+66. Clements KD, Angert ER, Montgomery WL, Choat JH. Intestinal microbiota in fishes: what's known and what's not. *Mol Ecol*. 2014;23(8):1891–1898.
+67. van Nood E, Vrieze A, Nieuwdorp M, et al. Duodenal infusion of donor feces for recurrent *Clostridium difficile*. *N Engl J Med*. 2013;368(5):407–415.
+68. Paramsothy S, Kamm MA, Kaakoush NO, et al. Multidonor intensive faecal microbiota transplantation for active ulcerative colitis: a randomised placebo-controlled trial. *Lancet*. 2017;389(10075):1218–1228.
+69. Moayyedi P, Surette MG, Kim PT, et al. Fecal microbiota transplantation induces remission in patients with active ulcerative colitis in a randomized controlled trial. *Gastroenterology*. 2015;149(1):102–109.e6.
+70. Hota SS, Sales V, Tomlinson G, et al. Oral vancomycin followed by fecal transplantation versus tapering oral vancomycin treatment for recurrent *Clostridium difficile* infection: an open-label, randomized controlled trial. *Clin Infect Dis*. 2017;64(3):265–271.
+71. Cammarota G, Ianiro G, Tilg H, et al. European consensus conference on faecal microbiota transplantation in clinical practice. *Gut*. 2017;66(4):569–580.
+72. Ianiro G, Valerio L, Maida M, et al. Predictors of failure after single faecal microbiota transplantation in patients with recurrent *Clostridium difficile* infection: results from a 3-year, single-centre cohort study. *Clin Microbiol Infect*. 2017;23(5):337.e1–337.e3.
+73. Sonnenburg ED, Sonnenburg JL. The ancestral and industrialized gut microbiota and implications for human health. *Nat Rev Microbiol*. 2019;17(6):383–390.
+74. Human Microbiome Project Consortium. Structure, function and diversity of the healthy human microbiome. *Nature*. 2012;486(7402):207–214.
+75. Qin J, Li R, Raes J, et al. A human gut microbial gene catalogue established by metagenomic sequencing. *Nature*. 2010;464(7285):59–65.
+76. Gilbert JA, Blaser MJ, Caporaso JG, et al. Current understanding of the human microbiome. *Nat Med*. 2018;24(4):392–400.
+77. Sonnenburg JL, Bäckhed F. Diet–microbiota interactions as moderators of human metabolism. *Nature*. 2016;535(7610):56–64.
+78. Dahl WJ, Rivero Mendoza D, Lambert JM. Diet, nutrients and the microbiome. *Prog Mol Biol Transl Sci*. 2020;171:237–263.
+79. Turnbaugh PJ, Ley RE, Mahowald MA, Magrini V, Mardis ER, Gordon JI. An obesity-associated gut microbiome with increased capacity for energy harvest. *Nature*. 2006;444(7122):1027–1031.
+80. Gibson GR, Hutkins R, Sanders ME, et al. Expert consensus document: the International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics. *Nat Rev Gastroenterol Hepatol*. 2017;14(8):491–502.
+81. Hill C, Guarner F, Reid G, et al. Expert consensus document: the International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic. *Nat Rev Gastroenterol Hepatol*. 2014;11(8):506–514.
+82. Swanson KS, Gibson GR, Hutkins R, et al. The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of synbiotics. *Nat Rev Gastroenterol Hepatol*. 2020;17(11):687–701.
+83. Suez J, Zmora N, Zilberman-Schapira G, et al. Post-antibiotic gut mucosal microbiome reconstitution is impaired by probiotics and improved by autologous FMT. *Cell*. 2018;174(6):1406–1423.e16.
+84. Khanna S, Assi M, Lee C, et al. Efficacy and safety of RBX2660 in PUNCH CD3, a phase III, randomized, double-blind, placebo-controlled trial with a Bayesian primary analysis for the prevention of recurrent *Clostridioides difficile* infection. *Drugs*. 2022;82(15):1527–1538.
+85. Haesebrouck F, Pasmans F, Flahou B, et al. Gastric helicobacters in domestic animals and nonhuman primates and their significance for human health. *Clin Microbiol Rev*. 2009;22(2):202–223.
+86. Solnick JV, Schauer DB. Emergence of diverse *Helicobacter* species in the pathogenesis of gastric and enterohepatic diseases. *Clin Microbiol Rev*. 2001;14(1):59–97.
+87. Weese JS. *Clostridium* (Clostridioides) *difficile* in animals. *J Vet Diagn Invest*. 2020;32(2):213–221.
+88. Weese JS, Staempfli HR, Prescott JF. A prospective study of the roles of clostridium difficile and enterotoxigenic *Clostridium perfringens* in equine diarrhoea. *Equine Vet J*. 2001;33(4):403–407.
+89. Rodriguez C, Taminiau B, Van Broeck J, Avesani V, Delmée M, Daube G. *Clostridium difficile* infection and colonization in animals and humans. *Anaerobe*. 2016;41:26–35.
+90. Smits WK, Lyras D, Lacy DB, Wilcox MH, Kuijper EJ. *Clostridium difficile* infection. *Nat Rev Dis Primers*. 2016;2:16020.
+91. Baverud V, Gustafsson A, Franklin A, Aspan A, Gunnarsson A. *Clostridium difficile* associated with acute colitis in mares when their foals are treated with erythromycin and rifampicin for *Rhodococcus equi* pneumonia. *Equine Vet J*. 1998;30(6):482–488.
+92. Riley LW, Remis RS, Helgerson SD, et al. Hemorrhagic colitis associated with a rare *Escherichia coli* serotype. *N Engl J Med*. 1983;308(12):681–685.
+93. Johnson JR, Russo TA. Extraintestinal pathogenic *Escherichia coli*: "the other bad *E. coli*". *J Lab Clin Med*. 2002;139(3):155–162.
+94. Pitout JD, Laupland KB. Extended-spectrum β-lactamase-producing Enterobacteriaceae: an emerging public-health concern. *Lancet Infect Dis*. 2008;8(3):159–166.
+95. Lazarus B, Lloyd DH, Bhatt DL, et al. Companion animals: a reservoir for ESBL-producing Enterobacteriaceae. *J Antimicrob Chemother*. 2015;70(9):2499–2505.
+96. Liu YY, Wang Y, Walsh TR, et al. Emergence of plasmid-mediated colistin resistance mechanism MCR-1 in animals and human beings in China: a microbiological and molecular biological study. *Lancet Infect Dis*. 2016;16(2):161–168.
+97. Walsh TR. Emerging carbapenemases: a global perspective. *Int J Antimicrob Agents*. 2010;36 Suppl 3:S8–S14.
+98. Van Boeckel TP, Pires J, Silvester R, et al. Global trends in antimicrobial resistance in animals in low- and middle-income countries. *Science*. 2019;365(6459):eaaw1944.
+99. Gottschalk M. Streptococcosis. In: Zimmerman JJ, Karriker LA, Ramirez A, Schwartz KJ, Stevenson GW, eds. *Diseases of Swine*. 10th ed. Ames, IA: Wiley-Blackwell; 2012:841–855.
+100. Lun ZR, Wang QP, Chen XG, Li AX, Zhu XQ. *Streptococcus suis*: an emerging zoonotic pathogen. *Lancet Infect Dis*. 2007;7(3):201–209.
+101. Yu H, Jing H, Chen Z, et al. Human *Streptococcus suis* outbreak, Sichuan, China. *Emerg Infect Dis*. 2006;12(6):914–920.
+102. Fittipaldi N, Segura M, Grenier D, Gottschalk M. Virulence factors involved in the pathogenesis of the infection caused by the swine pathogen and zoonotic agent *Streptococcus suis*. *Future Microbiol*. 2012;7(2):259–279.
+103. Boost MV, O'Donoghue MM, James A. Prevalence of *Staphylococcus aureus* carriage among dogs and their owners. *Epidemiol Infect*. 2008;136(7):953–964.
+104. Pomba C, Rantala M, Greko C, et al. Public health risk of antimicrobial resistance transfer from companion animals. *J Antimicrob Chemother*. 2017;72(4):957–968.
+105. Windahl U, Holst BS, Nyman A, Grönlund U, Bengtsson B. Characterisation of bacterial growth and antimicrobial susceptibility patterns in canine urinary tract infections. *BMC Vet Res*. 2014;10:217.
+106. van Duijkeren E, Wolfhagen MJ, Box AT, Heck ME, Wannet WJ, Fluit AC. Human-to-dog transmission of methicillin-resistant *Staphylococcus aureus*. *Emerg Infect Dis*. 2004;10(12):2235–2236.
+107. Graveland H, Duim B, van Duijkeren E, Heederik D, Wagenaar JA. Livestock-associated methicillin-resistant *Staphylococcus aureus* in animals and humans. *Int J Med Microbiol*. 2011;301(8):630–634.
+108. Forsberg KJ, Reyes A, Wang B, Selleck EM, Sommer MO, Bhatt DL. The shared antibiotic resistome of soil bacteria and human pathogens. *Science*. 2012;337(6098):1107–1111.
+109. Martínez JL, Coque TM, Baquero F. What is a resistance gene? Ranking risk in resistomes. *Nat Rev Microbiol*. 2015;13(2):116–123.
+110. Kristiansson E, Fick J, Janzon A, et al. Pyrosequencing of antibiotic-contaminated river sediments reveals high levels of resistance and gene transfer elements. *PLoS One*. 2011;6(2):e17038.
+111. Weese JS, Hershberger E. Fecal microbiota transplantation in veterinary medicine. *Vet Clin North Am Small Anim Pract*. 2019;49(5):923–940.
+112. Dowd SE, Callaway TR, Wolcott RD, et al. Evaluation of the bacterial diversity in the feces of cattle using 16S rDNA bacterial tag-encoded FLX amplicon pyrosequencing (bTEFAP). *BMC Microbiol*. 2008;8:125.
+113. Schloss PD, Westcott SL, Ryabin T, et al. Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. *Appl Environ Microbiol*. 2009;75(23):7537–7541.
+114. Suchodolski JS, Camacho J, Steiner JM. Analysis of bacterial diversity in the canine duodenum, jejunum, ileum, and colon by comparative 16S rRNA gene analysis. *FEMS Microbiol Ecol*. 2008;66(3):567–578.
+115. Giatsis C, Sipkema D, Smidt H, et al. The colonization dynamics of the gut microbiota in tilapia larvae. *PLoS One*. 2015;10(7):e0132687.
+116. Witte W, Strommenger B, Stanek C, Cuny C. Methicillin-resistant *Staphylococcus aureus* ST398 in humans and animals, Central Europe. *Emerg Infect Dis*. 2007;13(2):255–258.
+117. Li F, Henderson G, Sun X, Cox F, Janssen PH, Guan LL. Taxonomic assessment of rumen microbiota using total RNA and targeted amplicon sequencing approaches. *Front Microbiol*. 2016;7:987.
+118. Creevey CJ, Kelly WJ, Henderson G, Leahy SC. Determining the culturability of the rumen bacterial microbiome. *Microb Biotechnol*. 2014;7(5):467–479.
+119. Sugita K, Yanuma N, Ohno H, et al. Oral faecal microbiota transplantation for the treatment of *Clostridium difficile*-associated diarrhoea in a dog: a case report. *BMC Vet Res*. 2019;15(1):11.
+120. Bäckhed F, Roswall J, Peng Y, et al. Dynamics and stabilization of the human gut microbiome during the first year of life. *Cell Host Microbe*. 2015;17(5):690–703.
+121. Sung CH, Marsilio S, Chow B, et al. Dysbiosis index to evaluate the fecal microbiota in healthy cats and cats with chronic enteropathy. *J Feline Med Surg*. 2022;24(6):e1–e12.
+122. Dougal K, Harris PA, Edwards A, et al. A comparison of the microbiome and the metabolome of different regions of the equine hindgut. *FEMS Microbiol Ecol*. 2012;82(3):642–652.
+123. Ley RE, Hamady M, Lozupone C, et al. Evolution of mammals and their gut microbes. *Science*. 2008;320(5883):1647–1651.
+124. Jergens AE, Heilmann RM. Canine inflammatory bowel disease: has progress been made? *J Small Anim Pract*. 2018;59(8):467–475.
+125. Packey CD, Sartor RB. Commensal bacteria, traditional and opportunistic pathogens, dysbiosis and bacterial killing in inflammatory bowel diseases. *Curr Opin Infect Dis*. 2009;22(3):292–301.
+126. Stull JW, Brophy J, Weese JS. Reducing the risk of pet-associated zoonotic infections. *CMAJ*. 2015;187(10):736–743.
+127. Goorhuis A, Bakker D, Corver J, et al. Emergence of *Clostridium difficile* infection due to a new hypervirulent strain, polymerase chain reaction ribotype 078. *Clin Infect Dis*. 2008;47(9):1162–1170.
+128. van Boeckel TP, Gandra S, Ashok A, et al. Global antibiotic consumption 2000 to 2010: an analysis of national pharmaceutical sales data. *Lancet Infect Dis*. 2014;14(8):742–750.
+129. Platell JL, Johnson JR, Cobbold RN, Trott DJ. Multidrug-resistant extraintestinal pathogenic *Escherichia coli* of sequence type ST131 in animals and humans: an emerging One Health concern. *Vet Microbiol*. 2011;153(1–2):99–108.
+130. Arumugam M, Raes J, Pelletier E, et al. Enterotypes of the human gut microbiome. *Nature*. 2011;473(7346):174–180.
+131. Chermprapai S, Ederveen THA, Broere F, et al. The bacterial and fungal microbiome of the skin of healthy dogs and dogs with atopic dermatitis and the impact of *in vivo* sampling. *Vet Microbiol*. 2019;229:90–99.
+132. Ziemer CJ, Steadham SR. Evaluation of the specificity of *Salmonella* PCR primers using various intestinal bacterial species. *Lett Appl Microbiol*. 2003;37(6):459–464.
+133. Franzosa EA, Huttenhower C, Sirota-Madi A, et al. Relating the metatranscriptome and metagenome of the human gut. *Proc Natl Acad Sci USA*. 2014;111(22):E2329–E2338.
+134. Smillie CS, Sauk J, Gevers D, et al. Strain tracking reveals the determinants of bacterial engraftment in the human gut following fecal microbiota transplantation. *Cell Host Microbe*. 2018;23(2):229–240.e5.
+135. Gloor GB, Macklaim JM, Pawlowsky-Glahn V, Egozcue JJ. Microbiome datasets are compositional: and this is not optional. *Front Microbiol*. 2017;8:2224.
+136. Callahan BJ, McMurdie PJ, Rosen MJ, Han AW, Johnson AJA, Holmes SP. DADA2: high-resolution sample inference from Illumina amplicon data. *Nat Methods*. 2016;13(7):581–583.
+137. McMurdie PJ, Holmes S. Waste not, want not: why rarefying microbiome data is inadmissible. *PLoS Comput Biol*. 2014;10(4):e1003531.
+138. Yatsunenko T, Rey FE, Manary MJ, et al. Human gut microbiome viewed across age and geography. *Nature*. 2012;486(7402):222–227.
+139. Ianiro G, Tilg H, Gasbarrini A. Antibiotics as deep modulators of gut microbiota: between good and evil. *Gut*. 2016;65(11):1906–1915.
+140. Lozupone CA, Stombaugh JI, Gordon JI, Jansson JK, Knight R. Diversity, stability and resilience of the human gut microbiota. *Nature*. 2012;489(7415):220–230.
